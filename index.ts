@@ -37,10 +37,9 @@ try {
    * - using polkadot-api <= 1.8.4 the assetId property is present
    * - using polkadot-api >= 1.9.0 the assetId property is missing
    */
-
   await transfer.sign(alice.fakePjsSigner, txOptions);
 } catch (err) {
-  // not implemented
+  // throws not implemented
 }
 
 client.destroy();
