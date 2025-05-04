@@ -1,0 +1,17 @@
+{
+  "name": "issue-papi-assetid",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi/descriptors",
+    "@polkadot-labs/hdkd": "^0.0.14",
+    "@polkadot-labs/hdkd-helpers": "^0.0.14",
+    "polkadot-api": "1.8.4"
+  }
+}
