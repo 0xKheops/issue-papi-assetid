@@ -23,10 +23,7 @@ const txOptions: TxOptions<FeeAsset> = {
   },
 };
 
-// create the client with smoldot
 const client = createClient(getWsProvider(PAH_RPC_URL));
-
-// get the safely typed API
 const api = client.getTypedApi(pah);
 
 const transfer = api.tx.Balances.transfer_allow_death({
